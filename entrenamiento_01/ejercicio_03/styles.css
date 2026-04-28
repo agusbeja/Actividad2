@@ -6,14 +6,10 @@
     background-color: rgb(229, 225, 225);
 }
 
-body {
-    
-}
-
 header {
     border: 2px solid black;
     width: 100%;
-    padding: 1em;
+    
     position: sticky;
     top: 0;
 }
@@ -35,4 +31,35 @@ a {
 
 .indice_container h1 {
     margin-bottom: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.receta_container {
+    border: 1px solid black;
+    margin: 1.5em;
+    padding: 1em;
+    background-color: #A9B8CF;
+}
+
+.titulo_indice {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A9B8CF;
+
+}
+
+p {
+        background-color: #A9B8CF;
+}
+
+h2 {
+    background-color: #A9B8CF;
+}
+
+.titulo_indice a {
+    background-color: #A9B8CF;
 }
